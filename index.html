@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Form Validation </title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- google font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <div class="container"><br>
+          <h1 class="text-success text-center"> JS Form Validation </h1><br>
+          <div class="main-content">
+              <form class="" action="#" method="post" onsubmit="return validation()">
+                <div class="form-group">
+                    <div class="lable"><label>UserName:</label></div>
+                  <input type="text" name="user" class="form-control" id="user" placeholder="Username"><span id="username" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="lable"><label>Email:</label></div>
+                    <input type="email" name="conpassword" class="form-control" id="email" placeholder="Email id"><span id="emailid" class="text-danger"></span>
+                  </div>
+                <div class="form-group">
+                  <div class="lable"><label>Password:</label></div>
+                  <input type="text" name="password" class="form-control" id="password"><span id="passwordid" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                  <div class="lable"><label>Confirm Password:</label></div>
+                  <input type="text" name="Confirmpassword" class="form-control" id="Confirmpassword"><span id="Confirmpasswordid" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                  <div class="lable"><label>Mobile Number:</label></div>
+                  <input type="text" name="MobileNumber" class="form-control" id="mobilenumber"><span id="MobileNumberid" class="text-danger"></span>
+                </div>
+                <input type="submit" name="submit" value="Submit" class="btn btn-success">
+              </form>
+          </div>
+        </div>
+        <script src="index.js"></script>
+  </body>
+</html>
